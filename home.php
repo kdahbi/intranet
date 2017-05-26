@@ -20,6 +20,9 @@ echo "Codi captcha";
  *
  */
 
+
+echo "Canvis de l'exercici 3";
+
 	if ($_SERVER['REQUEST_METHOD']=='POST' && $_REQUEST['login'] == "entra"){
         $usuario =  $_REQUEST["usuario"];
 		$pass =  $_REQUEST["pass"];
