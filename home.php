@@ -5,6 +5,21 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 
+/**
+ * 
+ * 	NOUCODI DE CAPTCHA
+ * 
+ */
+
+echo "Codi captcha";
+
+
+/**
+ *
+ * 	FINAL NOUCODI DE CAPTCHA
+ *
+ */
+
 	if ($_SERVER['REQUEST_METHOD']=='POST' && $_REQUEST['login'] == "entra"){
         $usuario =  $_REQUEST["usuario"];
 		$pass =  $_REQUEST["pass"];
